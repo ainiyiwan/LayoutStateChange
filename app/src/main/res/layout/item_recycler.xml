@@ -1,0 +1,29 @@
+<com.example.zy.androidgithubuse.RelativeStateLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relative"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/item_background">
+
+    <ImageView
+        android:id="@+id/id_msg_item_icon"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:duplicateParentState="true"
+        android:src="@mipmap/ic_launcher"
+    />
+
+    <TextView
+        android:id="@+id/id_msg_item_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/id_msg_item_icon"
+        android:layout_marginLeft="15dp"
+        android:text="@string/change_relativelayout_drawable"
+        android:textColor="@color/colorPrimary"/>
+
+</com.example.zy.androidgithubuse.RelativeStateLayout>

@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">AndroidGithubUse</string>
+    <string name="change_relativelayout_drawable">点击切换RelativeLayout的Drawable</string>
 </resources>
