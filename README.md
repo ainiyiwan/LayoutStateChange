@@ -1,0 +1,2 @@
+# LayoutStateChange
+Android各种layout点击切换状态方案
